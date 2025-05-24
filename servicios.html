@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Espacios de la Biblioteca Francisco Javier Clavijero">
+    <meta name="author" content="Biblioteca Francisco Javier Clavijero">
+    <title>Servicios de la Biblioteca Francisco Javier Clavijero</title>
+
+    <!-- Vincular con Google Fonts para mejorar la tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #ff7f50; /* Naranja suave */
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #f39c12; /* Naranja brillante */
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d35400; /* Naranja más oscuro */
+        }
+
+        /* Sección principal */
+        main {
+            padding: 30px;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #e67e22;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .space-section {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .space {
+            background-color: #ffebcd; /* Naranja muy claro */
+            padding: 20px;
+            border-radius: 12px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .space h3 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #e67e22;
+        }
+
+        .space p {
+            font-size: 1em;
+            color: #7f8c8d;
+            line-height: 1.5;
+        }
+
+        .space:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #ff7f50; /* Naranja suave */
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        /* Estilo para enlaces */
+        a:link, a:visited {
+            color: #f39c12;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e67e22;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #f1c40f;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        /* Diseño responsivo */
+        @media screen and (max-width: 768px) {
+            .space {
+                width: 45%; /* Ajuste para pantallas más pequeñas */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .space {
+                width: 100%; /* En pantallas muy pequeñas, las tarjetas ocupan el 100% */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Biblioteca Francisco Javier Clavijero</h1>
+        <p>Conoce los diferentes servicios disponibles en nuestra biblioteca.</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#consulta" style="color: white;">Orientación a Usuarios</a>
+        <a href="#general" style="color: white;">Préstamo a Domicilio</a>
+        <a href="#juvenil" style="color: white;">Préstamo en Sala</a>
+        <a href="#digitales" style="color: white;">Servicios Digitales</a>
+        <a href="#servicios" style="color: white;">Servicios de Consulta</a>
+    </nav>
+
+    <!-- Sección principal -->
+    <main>
+
+        <!-- Sala de Consulta -->
+        <section id="consulta">
+            <div class="space-section">
+                <div class="space">
+                    <h3>Orientación a Usuarios</h3>
+                    <p> La orientación a usuarios es el servicio que brinda la biblioteca para ayudar a los usuarios a encontrar y utilizar de manera efectiva los recursos y servicios disponibles. Esto incluye la asistencia en la búsqueda de información, el uso del catálogo, la localización de materiales en las estanterías, y la explicación de las normas y servicios de la biblioteca. Su objetivo es mejorar la experiencia del usuario al facilitar el acceso a la información.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sala General -->
+        <section id="general">
+            <div class="space-section">
+                <div class="space">
+                    <h3>Préstamo a Domicilio</h3>
+                    <p>El préstamo a domicilio es un servicio que permite a los usuarios llevarse libros y otros materiales de la biblioteca para su lectura o consulta fuera de las instalaciones. Los usuarios pueden tomar prestados los materiales por un período determinado, tras lo cual deben devolverlos. Este servicio fomenta el acceso a la lectura y la educación fuera del entorno físico de la biblioteca.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sala Juvenil -->
+        <section id="juvenil">
+            <div class="space-section">
+                <div class="space">
+                    <h3>Préstamo en Sala</h3>
+                    <p>El préstamo en sala es un servicio en el cual los usuarios pueden utilizar materiales dentro de la misma biblioteca, sin poder llevarlos fuera de las instalaciones. Estos materiales, como libros o revistas, se deben consultar en la sala de lectura o en áreas designadas de la biblioteca. Este servicio es ideal para libros de consulta que no deben salir de la biblioteca por su valor, relevancia o necesidad de conservación.</p>
+                </div>
+            </div>
+        </section>
+        <section id="digitales">
+            <div class="space-section">
+                <div class="space">
+                    <h3>Servicios Digitales</h3>
+                    <p>Los servicios digitales de la biblioteca incluyen el acceso a recursos electrónicos como libros electrónicos (e-books), bases de datos académicas, revistas digitales, y otros materiales accesibles en línea. También pueden incluir servicios como el acceso a plataformas de aprendizaje, el préstamo de audiolibros o la consulta de información a través de la web. Estos servicios permiten a los usuarios acceder a los recursos de la biblioteca de manera remota.</p>
+                </div>
+            </div>
+        </section>
+        <section id="servicios">
+            <div class="space-section">
+                <div class="space">
+                    <h3>Servicios de Consulta</h3>
+                    <p>Los servicios de consulta son aquellos en los que los usuarios pueden obtener ayuda directa de los bibliotecarios o acceder a materiales específicos para resolver dudas de investigación o de interés general. Estos servicios pueden incluir consultas sobre el uso de catálogos, ayuda en la búsqueda de información, asesoramiento sobre el acceso a recursos especializados y asistencia para la utilización de herramientas tecnológicas disponibles en la biblioteca.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Biblioteca Francisco Javier Clavijero. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingreso a la Biblioteca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .formulario {
+            background-color: #fff;
+            padding: 25px 30px;
+            max-width: 550px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="time"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+        .sexo-opciones {
+            display: flex;
+            gap: 20px;
+            margin-top: 5px;
+        }
+        .sexo-opciones label {
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+<body style="background-color: #fdd7bb;">
+    <div class="formulario">
+        <h2>Formulario de Ingreso a la Biblioteca</h2>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label>Sexo:</label>
+            <div class="sexo-opciones">
+                <label><input type="radio" name="sexo" value="Hombre" required> Hombre</label>
+                <label><input type="radio" name="sexo" value="Mujer"> Mujer</label>
+            </div>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="0" required>
+
+            <label for="escolaridad">Escolaridad:</label>
+            <select id="escolaridad" name="escolaridad" required>
+                <option value="">Seleccione...</option>
+                <option value="Primaria">Primaria</option>
+                <option value="Secundaria">Secundaria</option>
+                <option value="Preparatoria">Preparatoria</option>
+                <option value="Universidad">Universidad</option>
+                <option value="Posgrado">Posgrado</option>
+            </select>
+
+            <label for="ocupacion">Ocupación:</label>
+            <input type="text" id="ocupacion" name="ocupacion" required>
+
+            <label for="hora_entrada">Hora de Entrada:</label>
+            <input type="time" id="hora_entrada" name="hora_entrada" required>
+<br>
+<br>
+
+              <center> <a href="file:///C:/Users/Almacen3/Downloads/index.html" style=" </center>
+    display: inline-block;
+    background-color: #fc7512;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;">Entrar a la Biblioteca</a>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
